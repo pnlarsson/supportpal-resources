@@ -479,4 +479,29 @@ return array(
     "filter_performance_desc"   => "<li>Filters that match more tickets will be slower, in most cases try to exclude resolved tickets.</li><li>Filters using 'is not' conditions will usually be slower than using 'is' conditions.</li><li>Filters checking for NULL values (e.g. Ticket tag is None) will be slower.</li><li>Avoid multiple conditions that involve checking strings/words as they introduce more complexity.</li><li>Filters using 'begins with' or 'contains' conditions will generally be slower than using 'equals' or 'ends with' conditions.</li><li>Resolved tickets are excluded from the counts shown in the sidebar.</li>",
     "run_macro"                 => "Run Macro",
     "run_macro_desc"            => "<strong>:macro</strong><br /><em>:description</em>",
+
+    /*
+     * 2.3.0
+     */
+    "registered_users_desc"     => "Aktivera för att endast visa avdelningen för inloggade användare och endast acceptera epost som skickas från registrerade användare. Om akverad kommer ett svarsmail skickas till oregistrerad användare som skickar epost till denna avdelning, för att ändra eller avaktivera, se 'Endast Registrerade Användare' mallen nedan.",
+    "form_fields_desc"          => "För att samla in mer information när en användare lämnar återkoppling, kan du lägga till egna fält som visas i formuläret. Fältet kommer att låsa när avnändaren skickar in svaret.",
+    "feedback_ratings"          => "Kundnöjdhetsbetyg (förändrar ditt kundnöjdhetspoäng)",
+    "email_and_other_accounts"  => "Epost och andra kanal konton",
+    "delete_message"            => "Radera meddelande",
+    "linked_tickets"            => "Länkade Ärenden",
+    "add_linked_ticket"         => "Lägg till Länkat Ärende",
+    "add_linked_ticket_desc"    => "Sök efter ärende nummer elle ämne:",
+    "create_linked_ticket"      => "Skapa länkat ärende",
+    "copy_link"                 => "Kopiera länk",
+    "forward_message"           => "Vidarebefodra detta meddelande",
+    "forward_from_here"         => "Vidarebefodra ärendet från denna punkt",
+    "forward"                   => "Vidarebefodra",
+    "forward_options"           => "Vidarebefodra Inställningar",
+    "forwarded_to"              => "Vidarebefodrat till",
+    "new_operator_reply"        => "Nytt operatörs svar",
+    "new_user_reply"            => "Nytt användar svar",
+    "add_bcc"                   => "Lägg till BCC",
+    "at_least_one_recipient"    => "Ange minst en mottagare.",
+    "forwarded_message"         => "---------- Vidarebefodrat meddelande ---------",
+
 );
